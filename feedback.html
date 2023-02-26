@@ -1,0 +1,94 @@
+<html>
+    <head>
+        <title>Feedback</title>
+
+        <script type="text/javascript">
+            function validation(){
+                var name
+                var email
+                var mob
+                var level
+                var exp
+                var field
+
+                name=document.getElementById("name").value;
+                email=document.getElementById("email").value;
+                mob=document.getElementById("mobnum").value;
+
+                if(name==""){
+                    alert("Please enetr name.")
+                    return false
+                }
+                if(email==""){
+                    alert("Please enter an Email Id.")
+                    return false
+                }
+                if(mobnum==""){
+                    alert("Please enter a mobile number.")
+                    return false
+                }
+
+                
+            }
+            
+
+        </script>
+
+    </head>
+
+    <body background="Hexagon-dotted-connect-line-background.jpg" onsubmit="validation()">
+        <h1><center>HeLLo DeSiGnErS</center></h1>
+            We are glad to have you here to give feedback regarding our website. Your feedback will help us improve
+             and provide better services regarding the same. We request you to undergo a small survey as given below.<br><br><br>
+
+        <form>
+            <table>
+                <tr>
+                    <td><label>Name: </label></td>
+                    <td><input type="text" id="name"></td>
+                </tr>
+    
+                <tr>
+                    <td><label>Email id: </label></td>
+                    <td><input type="email" id="email"></td>
+                </tr>
+    
+                <tr>
+                    <td><label>Mobile Number: </label></td>
+                    <td><input type="number" id="mobnum"></td>
+                </tr>
+    
+                <tr>
+                    <td><label>Current level as a designer: </label></td>
+                    <td><input type="radio" name="level" id="beg">Beginner
+                        <input type="radio" name="level" id="int">Intermediate
+                        <input type="radio" name="level" id="exp">Expert
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td><label>Your experience as a designer(if any): </label></td>
+                    <td><textarea rows="5" cols="20"></textarea></td>
+                </tr>
+    
+                <tr>
+                    <td><label>The field(s) in which you wish to excel:  </label></td>
+                    <td><input type="checkbox" name="field" id="uud">UX/UI Designer
+                        <input type="checkbox" name="field" id="gd">Graphic Designer</td>
+                </tr>
+
+                <tr>
+                    <td><label>Rate my website out of 10: </label></td>
+                    <td><label>1</label><input type="range" min="1" max="10"><label>10</label></td>
+                </tr>
+
+                <tr>
+                    <td align="center"><input type="submit" value="Submit"></td>
+                    <td align="center"><input type="reset" value="Reset"></td>
+                </tr>
+            </table>
+        </form>       
+        
+        <center><a href="homepage2.html"><button id="direct">Home Page</button></a></center>
+    </body>
+</html>

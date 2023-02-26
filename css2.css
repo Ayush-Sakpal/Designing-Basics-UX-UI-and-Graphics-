@@ -1,0 +1,344 @@
+#direct{
+    width: 150px;
+    height: 75px;
+    border-style: none;
+    background-color: #f08583;
+    color: #f6f3cf;
+    text-decoration: none;
+}
+
+#direct:hover{
+    width: 200px;
+    height: 100px;
+    border-style: solid;
+    background-color: lightgreen;
+    border-color: lightgreen;
+    color: black;
+    transition: 0.3s;
+    box-shadow: 0px 0px 10px 3px greenyellow;
+}
+
+body{
+    margin: 0;
+    background-color: #f6f3cf;
+}
+
+.homepage .navbar ul li{
+    float: right;
+    position: relative;
+}
+
+.homepage .navbar ul{
+    list-style-type: none;
+    text-align: right;
+    background-position: 100%;
+    overflow: hidden;
+    padding-right: 0;
+}
+
+.homepage .navbar ul li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 14px;
+    color: #077893;
+    text-decoration: none;
+}
+
+li a button:hover{
+    background-color: #ecd8c1;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+button{
+    background:transparent;
+    color: aliceblue;
+    width:100px;
+    height:30px;
+    font-size: 15px;
+    border-style: none;
+    border-radius: 20px;
+    text-decoration: underline;
+    margin: 0px;
+}
+#navbar{
+    position: absolute;
+}
+
+#heading1{
+    color: aliceblue;
+    margin-left: 15px;
+    font-size: 50px;
+}
+
+#bhead1{
+    color: aliceblue;
+    margin-left: 55px;
+    font-size: 20px;
+}
+
+
+
+#navbar li:hover ul{
+    display:block;
+    border-radius: 5px;
+}
+
+#navbar ul li{
+    float: none;
+    background-color: #ecd8c1;
+}
+
+#navbar ul li:hover{
+    background-color: black;
+    color: #ecd8c1;
+}
+
+#types{
+    display: none;
+    float: none;
+}
+
+#navbar, #navbar ul{
+    padding: 0;
+}
+
+.homePage{
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-block: 0;
+}
+
+#navbar ul{
+    position: fixed;
+}
+
+#types li{
+    background-color: aliceblue;
+    color: black;
+}
+
+.navimg{
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-block: 0;
+    background-image: url("top-view-desk-dark-concept-with-copy-space.jpg");
+    background-attachment:fixed;
+    width:100%;
+    height: 85%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.intro{
+    font-size: 40px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+#types li a:link{
+    color: black;
+}
+
+#types li a:visited{
+    color: red;
+}
+
+.uxui{
+    font-size: 40px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.graphic{
+    font-size: 40px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.uxui_main div ul li{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.intro_main div ul li a{
+    font-size: 20px;
+    color:black;
+    text-decoration: none;
+}
+
+.intro_main div ul li a:hover{
+    font-size: 20px;
+    color:red;
+    text-decoration: none;
+}
+
+.intro_main div ul li a:visited{
+    font-size: 20px;
+    color:green;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+.uxui_main div ul{
+    margin-right: 85px;
+    margin-left: 85px;
+}
+
+.graphic{
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+
+.graphic_main div p center{
+    font-size: 40px;
+    color: #077893;
+}
+
+
+div ul a li div:hover{
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0px 0px 10px 0.9px #f08583;
+    border-color: #f08583;
+    background-color: #ecd8c1;
+    transition: 0.2s;
+}
+
+div ul a li div:hover center{
+    color: #806154;
+    font-size: 21px;
+    text-shadow: black;
+    transition: 0.2s;
+}
+
+div h1 a:hover{
+    color: red;
+}
+
+div h1 a :visited{
+    color: green;
+    text-decoration: none;
+}
+
+div h1 a{
+    text-decoration: none;
+}
+
+.intro_main div p{
+    font-size: 20px;
+    margin-left: 40px;
+    margin-right:40px
+}
+
+.intro_main div p ul{
+    float: none;
+}
+
+.intro_main div ul{
+    font-size: 20px;
+    margin-left: 40px;
+    margin-right:40px
+}
+
+
+.uxui_main div p{
+    font-size: 20px;
+    margin-left: 40px;
+    margin-right:40px
+}
+
+.graphic_main div p{
+    font-size: 20px;
+    margin-left: 40px;
+    margin-right:40px
+}
+
+.graphic_main div ul{
+    font-size: 20px;
+    margin-left: 40px;
+    margin-right:40px
+}
+
+.intro_main div h1{
+    margin-left: 20px;
+    margin-right:20px
+}
+
+.uxui_main div h1{
+    margin-left: 20px;
+    margin-right:20px
+}
+
+.graphic_main div h1{
+    margin-left: 20px;
+    margin-right:20px
+}
+
+.uxui_main div center{
+    margin-bottom: 40px;
+}
+
+.graphic_main div center{
+    margin-bottom: 40px;
+}
+
+.intro_main div img{
+    border-style: none;
+    border-radius: 7px;
+    width: 600px;
+    height: 300px;
+    margin-left: 325px;
+    align-self: center;
+    box-shadow: 0px 0px 10px 2px black;
+}
+
+.uxui_main div img{
+    border-style: none;
+    border-radius: 7px;
+    width: 600px;
+    height: 300px;
+    margin-left: 325px;
+    align-self: center;
+    box-shadow: 0px 0px 10px 2px black;
+}
+
+.graphic_main div img{
+    border-style: none;
+    border-radius: 7px;
+    width: 600px;
+    height: 300px;
+    margin-left: 325px;
+    align-self: center;
+    box-shadow: 0px 0px 10px 2px black;
+}
+
+#rc{
+    font-weight:bolder;
+    font-size: 30px;
+}
+
+.intro center{
+    font-weight: bold;
+}
+
+.uxui center{
+    font-weight: bold;
+}
+
+.graphic center{
+    font-weight: bold;
+}
